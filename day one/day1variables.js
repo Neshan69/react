@@ -34,3 +34,19 @@ let display = (name)=>{
     console.log("hello", name)
 }
 display("Hari")
+
+//first day js practice
+
+let message = "Welcome to first dau js practice"
+let name ="Pradip Shrestha"
+let role = "Director"
+let salary = 40000
+//using template literals to combine all these variables value
+
+let combineMsg = `${message}, My full name is ${name.toUpperCase()} and my role is ${role}. My salary is ${salary}`
+console.log(combineMsg)
+//without usign template literals or traditional way
+let traditionalMsg = message + ".My full name is " + name.toUpperCase() + " and my role is " + role + ". My salary is " +  salary 
+console.log(traditionalMsg)
+
+
