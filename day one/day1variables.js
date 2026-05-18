@@ -50,3 +50,12 @@ let traditionalMsg = message + ".My full name is " + name.toUpperCase() + " and 
 console.log(traditionalMsg)
 
 
+//defailt parameters
+
+let divide = (a,b) =>{
+    let divideRes = a/b
+    console.log(`Divide result is = ${divideRes}`)
+}
+divide()
+divide(32,12)
+divide(32)
