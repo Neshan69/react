@@ -21,3 +21,14 @@ let add = (...values)=>{
 }
 add(...numbers)
 add(234,423,525,251,51,1,2,4,5)
+
+let obj1={
+    name:"Ram prasad",
+    age: 32
+}
+let obj2={
+    school: "abc school",
+    favSubject: "math"
+}
+let mergedObj = {...obj1, ...obj2}
+console.log("merged obj: ", mergedObj)
