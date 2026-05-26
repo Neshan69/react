@@ -7,6 +7,6 @@ export default PI
 export {c, gOnEarth}
 
 let CalcArea = (r) =>{
-    return 
+    return PI * r * r
 }
 export {CalcArea}
